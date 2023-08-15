@@ -11,7 +11,7 @@ import rasterio
 import matplotlib.pyplot as plt
 
 # 1. 读取输入文件
-input_path = r"C:\Users\Administrator\Downloads\vectorizer\out\tmp.txt"
+input_path = r"..." # 缓存文件路径
 with open(input_path, "r") as f:
     t = f.read().splitlines()
 
